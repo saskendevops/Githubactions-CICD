@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: dev-runner
     steps:
       # Checkout the code
       - uses: actions/checkout@v3
